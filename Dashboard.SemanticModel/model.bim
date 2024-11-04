@@ -986,7 +986,7 @@
         "lineageTag": "ee7f289b-3a30-4f80-b22e-07150cf40c0b",
         "measures": [
           {
-            "name": "Revenue",
+            "name": "Profit",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
