@@ -1,0 +1,129 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.59\",\"type\":2},\"customTheme\":{\"name\":\"Bloom\",\"version\":\"5.59\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 1,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Bloom",
+            "path": "BuiltInThemes/Bloom.json",
+            "type": 201
+          },
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"182L\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"0df115147bca77877030\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"warehousedata order_items\"}},\"Property\":\"status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Complete'\"}}],[{\"Literal\":{\"Value\":\"'Processing'\"}}],[{\"Literal\":{\"Value\":\"'Shipped'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{},\"isLockedInViewMode\":true}]",
+      "height": 720.00,
+      "name": "8ede39bb6983d94e9dd3",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"050b931a6d88bce72874\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":370,\"width\":365,\"height\":350,\"z\":0,\"tabOrder\":0}},{\"id\":1,\"position\":{\"x\":5.254195352839931,\"y\":818,\"z\":1000,\"width\":191.7781303786575,\"height\":285.3740985576923,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 350.00,
+          "width": 365.00,
+          "x": 10.00,
+          "y": 370.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"142c150797e033b29ec4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":2000,\"width\":1280,\"height\":85.97014925373135,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Dashboard'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"45D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 85.97,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"29b333c084726510198e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":616.9934640522875,\"y\":387.9738562091503,\"z\":7000,\"width\":663.0065359477123,\"height\":331.50326797385617,\"tabOrder\":7000}},{\"id\":1,\"position\":{\"x\":0,\"y\":1068,\"z\":8002,\"width\":324,\"height\":270,\"tabOrder\":9002}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"warehousedata users.country\",\"active\":true}],\"Size\":[{\"queryRef\":\"Sum(warehousedata order_items.sale_price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata users\",\"Type\":0},{\"Name\":\"w1\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"country\"},\"Name\":\"warehousedata users.country\",\"NativeReferenceName\":\"country\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w1\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(warehousedata order_items.sale_price)\",\"NativeReferenceName\":\"Sum of sale_price\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"heatMap\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'grayscale'\"}}}}}],\"mapControls\":[{\"properties\":{\"showZoomButtons\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 331.50,
+          "width": 663.01,
+          "x": 616.99,
+          "y": 387.97,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"3c017a1660cc072c9bb3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":616.9934640522875,\"y\":328.3660130718954,\"z\":6000,\"width\":663.0065359477123,\"height\":59.607843137254896,\"tabOrder\":5000}},{\"id\":1,\"position\":{\"x\":0,\"y\":1015,\"z\":8000,\"width\":324,\"height\":53,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales by Country'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 59.61,
+          "width": 663.01,
+          "x": 616.99,
+          "y": 328.37,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"50100a44c7240375503b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":327.96019900497515,\"z\":5000,\"width\":616.6500829187397,\"height\":60.49751243781095,\"tabOrder\":4000}},{\"id\":1,\"position\":{\"x\":0,\"y\":690,\"z\":7000,\"width\":324,\"height\":55,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales by Category'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}},\"selector\":{\"id\":\"default\"}}],\"glow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 60.50,
+          "width": 616.65,
+          "x": 0.00,
+          "y": 327.96,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"5c22a58033a7cd099400\",\"layouts\":[{\"id\":0,\"position\":{\"x\":318.407960199005,\"y\":85.97014925373135,\"z\":4000,\"width\":379.96683250414594,\"height\":241.9900497512438,\"tabOrder\":3000}},{\"id\":1,\"position\":{\"x\":0,\"y\":347,\"z\":6000,\"width\":324,\"height\":206,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"warehousedata products.brand\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(warehousedata order_items.sale_price)\"}],\"Series\":[{\"queryRef\":\"warehousedata products.department\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0},{\"Name\":\"w1\",\"Entity\":\"warehousedata products\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w1\"}},\"Property\":\"brand\"},\"Name\":\"warehousedata products.brand\",\"NativeReferenceName\":\"brand\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(warehousedata order_items.sale_price)\",\"NativeReferenceName\":\"Sum of sale_price\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w1\"}},\"Property\":\"department\"},\"Name\":\"warehousedata products.department\",\"NativeReferenceName\":\"department\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"sale_price\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Brand'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales'\"}}}}}],\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Department'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales by Brand'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"9b29f1396029e9688546\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"warehousedata orders\"}},\"Property\":\"status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata orders\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Complete'\"}}],[{\"Literal\":{\"Value\":\"'Processing'\"}}],[{\"Literal\":{\"Value\":\"'Shipped'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 241.99,
+          "width": 379.97,
+          "x": 318.41,
+          "y": 85.97,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"7edc6983630beb0b1e2e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":698.6899563318777,\"y\":85.70596797671033,\"z\":8000,\"width\":580.3784570596797,\"height\":105.2692867540029,\"tabOrder\":8000}},{\"id\":1,\"position\":{\"x\":0,\"y\":247,\"z\":8003,\"width\":324,\"height\":100,\"tabOrder\":9003}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"warehousedata order_items.created_at\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"created_at\"},\"Name\":\"warehousedata order_items.created_at\",\"NativeReferenceName\":\"created_at\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"created_at\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2019-01-05T21:25:41'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"slider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"general\":[{\"properties\":{\"responsive\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"created_at\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2019-01-05T00:00:00'\"}}}}}]}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Date'\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"pendingChangesIcon\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 105.27,
+          "width": 580.38,
+          "x": 698.69,
+          "y": 85.71,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"d57a8acb1b8a930596d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":388.4577114427861,\"z\":1000,\"width\":616.6500829187397,\"height\":331.1442786069652,\"tabOrder\":1000}},{\"id\":1,\"position\":{\"x\":0,\"y\":745,\"z\":2000,\"width\":324,\"height\":270,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"warehousedata products.category\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(warehousedata order_items.sale_price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0},{\"Name\":\"w1\",\"Entity\":\"warehousedata products\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w1\"}},\"Property\":\"category\"},\"Name\":\"warehousedata products.category\",\"NativeReferenceName\":\"category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(warehousedata order_items.sale_price)\",\"NativeReferenceName\":\"Sum of sale_price\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"sale_price\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"2d028d304b531dea6c06\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"warehousedata order_items\"}},\"Property\":\"status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Complete'\"}}],[{\"Literal\":{\"Value\":\"'Processing'\"}}],[{\"Literal\":{\"Value\":\"'Shipped'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 331.14,
+          "width": 616.65,
+          "x": 0.00,
+          "y": 388.46,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"e78b4ad0606aed20c634\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":85.7516339869281,\"z\":3000,\"width\":317.90849673202615,\"height\":242.6143790849673,\"tabOrder\":6000}},{\"id\":1,\"position\":{\"x\":0,\"y\":0,\"z\":5000,\"width\":324,\"height\":247.2631578947368,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"warehousedata inventory_items.sale_price minus cost\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata inventory_items\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"Revenue\"},\"Name\":\"warehousedata inventory_items.sale_price minus cost\",\"NativeReferenceName\":\"Revenue\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"85680b41d860b74a04e9\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"warehousedata order_items\"}},\"Property\":\"status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata order_items\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Processing'\"}}],[{\"Literal\":{\"Value\":\"'Shipped'\"}}],[{\"Literal\":{\"Value\":\"'Complete'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{}}]}}]",
+          "height": 242.61,
+          "width": 317.91,
+          "x": 0.00,
+          "y": 85.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"f9a51210ddd0ad84048e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":698.6899563318777,\"y\":190.97525473071323,\"z\":9000,\"width\":581.3100436681223,\"height\":136.94323144104803,\"tabOrder\":9000}},{\"id\":1,\"position\":{\"x\":0,\"y\":553,\"z\":8004,\"width\":324,\"height\":137,\"tabOrder\":9004}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(warehousedata users.id)\"}],\"Category\":[{\"queryRef\":\"warehousedata users.age (bins)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"warehousedata users\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"id\"}},\"Function\":5},\"Name\":\"CountNonNull(warehousedata users.id)\",\"NativeReferenceName\":\"Count of id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"age (bins)\"},\"Name\":\"warehousedata users.age (bins)\",\"NativeReferenceName\":\"age (bins)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"id\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"general\":[{\"properties\":{\"responsive\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Age'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Count of Buyers'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Buyers by Age'\"}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 136.94,
+          "width": 581.31,
+          "x": 698.69,
+          "y": 190.98,
+          "z": 9000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Bloom"
+}

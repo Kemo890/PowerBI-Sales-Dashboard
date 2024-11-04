@@ -1,0 +1,113 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 621,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 568,
+            "y": 67
+          },
+          "nodeIndex": "warehousedata dc",
+          "nodeLineageTag": "18894388-41ff-4bd0-893e-5318b85c69dc",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 5
+          },
+          "nodeIndex": "warehousedata events",
+          "nodeLineageTag": "f3ed39cd-477c-4ac8-af34-5aa82cae457b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 5
+          },
+          "nodeIndex": "warehousedata inventory_items",
+          "nodeLineageTag": "ee7f289b-3a30-4f80-b22e-07150cf40c0b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 294,
+            "y": -5
+          },
+          "nodeIndex": "warehousedata order_items",
+          "nodeLineageTag": "aba0e5bc-c4e1-4123-8b8a-ef7c1355c607",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": -3
+          },
+          "nodeIndex": "warehousedata orders",
+          "nodeLineageTag": "b561f3fa-8815-4eaf-91f7-b8b337899cad",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 7
+          },
+          "nodeIndex": "warehousedata products",
+          "nodeLineageTag": "907a07c6-25ea-4722-9274-7a946999199f",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 5
+          },
+          "nodeIndex": "warehousedata users",
+          "nodeLineageTag": "d3f356eb-6431-41a3-92ff-5ca23c66a73b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
